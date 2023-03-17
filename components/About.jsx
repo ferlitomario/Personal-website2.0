@@ -17,10 +17,10 @@ const About = () => {
         <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
             <div  className='col-span-2'>
                 <p className='uppercase text-xl tracking-widest text-[#5651e5]'>About</p>
-                <h2 className='py-4'>Who I'am</h2>
+                <h2 className='py-4'>Who I am</h2>
                 <p className='py-2 text-gray-600'> </p>
                 <p className='py-2 text-gray-600'>
-                I am a computer engineering student at the University of Catania with a great passion for football, web3.0<br/> and the blockchain. I love the challenge of creating innovative solutions to modern technology challenges,<br/> and I'm always looking for new ways to improve user experiences and simplify everyday tasks through code.
+                I am a computer engineering student at the University of Catania with a great passion for football, web3.0<br/> and the blockchain. I love the challenge of creating innovative solutions to modern technology challenges,<br/> and I m always looking for new ways to improve user experiences and simplify everyday tasks through code.
                 </p>
                 <p className='py-2 text-gray-600'>
                 My academic training has provided me with a solid foundation of technical knowledge, which I have further enriched through personal projects.<br/> I am driven, creative and proactive, always trying to keep my skills up to date in an ever changing industry.

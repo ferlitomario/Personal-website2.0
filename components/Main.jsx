@@ -9,9 +9,9 @@ import BackgroundCircles from './BackgroundCircles';
 export default function Main ({}, props) {
     const [text, count] = useTypewriter({
         words: [
-            "Hi,I'm Mario",
-            "computer engineering student.jsx",
-            "<and a junior front-end dev/>"
+            "Hi,I'm Mario.html",
+            "Computer Engineering student.jsx",
+            "<and a Junior Front-End Dev/>"
         ],
         loop:true,
         delaySpeed: 2000,
