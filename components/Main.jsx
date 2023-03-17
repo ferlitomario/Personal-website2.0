@@ -10,7 +10,7 @@ export default function Main ({}, props) {
     const [text, count] = useTypewriter({
         words: [
             "Hi,I'm Mario",
-            "an engineering student.jsx",
+            "computer engineering student.jsx",
             "<and a junior front-end dev/>"
         ],
         loop:true,

@@ -9,8 +9,8 @@ const Navbar = () => {
 
     const [nav,setNav] = useState(false);
     const [shadow,setShadow] = useState(false);
-    const [navBg, setNavBg] = useState('#ecf0f3')
-    const [linkColor,setLinkColor] = useState('#1f2937')
+    const [navBg, setNavBg] = useState('#ecf0f3');
+    const [linkColor,setLinkColor] = useState('#1f2937');
     const router = useRouter()
 
     useEffect(() => {
@@ -57,13 +57,13 @@ const Navbar = () => {
             <Link href='/'>
             <div className='flex items-center '>
             <Image className='rounded-lg' src='/assets/MF.png' alt='/' width='50' height='50'/>
-            <h3 className='pl-2 font-bold '>Mario-Ferlito | dev</h3>
+            <h3 style={{color: `${linkColor}`}} className='pl-2 font-bold '>Mario-Ferlito | dev</h3>
             </div>
             </Link>
             
             
         <div>
-            <ul style={{colr: `${linkColor}`}}className='hidden md:flex '>
+            <ul style={{color: `${linkColor}`}}className='hidden md:flex '>
                 <Link href='/#home' scroll={false}> 
                 <li className='ml-8 text-base uppercase hover:border-b font-serif'>HOME</li>
                 </Link>
