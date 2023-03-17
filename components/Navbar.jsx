@@ -57,27 +57,27 @@ const Navbar = () => {
             <Link href='/'>
             <div className='flex items-center '>
             <Image className='rounded-lg' src='/assets/MF.png' alt='/' width='50' height='50'/>
-            <h3 className='pl-2 font-bold '>Mario Ferlito | dev</h3>
+            <h3 className='pl-2 font-bold '>Mario-Ferlito | dev</h3>
             </div>
             </Link>
             
             
         <div>
-            <ul style={{colr: `${linkColor}`}}className='hidden md:flex'>
+            <ul style={{colr: `${linkColor}`}}className='hidden md:flex '>
                 <Link href='/#home' scroll={false}> 
-                <li className='ml-10 text-sm uppercase hover:border-b'>HOME</li>
+                <li className='ml-8 text-base uppercase hover:border-b font-serif'>HOME</li>
                 </Link>
 
                 <Link href='/#about' scroll={false}> 
-                <li className='ml-10 text-sm uppercase hover:border-b'>About</li>
+                <li className='ml-8 text-base uppercase hover:border-b font-serif'>About</li>
                 </Link>
 
                 <Link href='/#skills' scroll={false}> 
-                <li className='ml-10 text-sm uppercase hover:border-b'>Skills</li>
+                <li className='ml-8 text-base uppercase hover:border-b font-serif'>Skills</li>
                 </Link>
 
                 <Link href='/#projects' scroll={false}> 
-                <li className='ml-10 text-sm uppercase hover:border-b'>Projects</li>
+                <li className='ml-8 text-base uppercase hover:border-b font-serif'>Projects</li>
                 </Link>
             </ul>
             <div onClick={handleNav} className='md:hidden '>
@@ -99,8 +99,8 @@ const Navbar = () => {
                             <AiOutlineClose />
                         </div>
                     </div>
-                    <div className='text-rose-800 border-b border-gray-300 my-4'>
-                        <p className='w-[85%] md:w-[90%] py-4 '>Scritta per il sito web </p>
+                    <div className='text-gray-600 border-b border-gray-300 my-4'>
+                        <p className='w-[85%] md:w-[90%] py-4 '> Dashboard</p>
                     </div>
                 </div>
                 <div className='py-4 flex flex-col'>
@@ -122,7 +122,7 @@ const Navbar = () => {
                     </Link>
                     </ul>
                     <div className='pt-40'>
-                        <p className='uppercase tracking-widest text-[#5651e5]'>Scritta per i link ai siti </p>
+                        <p className='uppercase tracking-widest text-[#5651e5]'>Join Me on Social</p>
                         <div className='flex items-center justify-between my-4 w-full sm:w-[80%] '>
                             <a href='https://www.linkedin.com/in/mario-ferlito-06bba6174/'
                         target='_blank'

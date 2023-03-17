@@ -20,9 +20,12 @@ const property = () => {
             <div className='col-span-4'>
                 <p>Project</p>
                 <h2>Overview</h2>
-                <p>My first personal website created with the React framework Gatsby.</p>
-                <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
+                <p>I made a project using React framework and OpenAI API to test ChatGPT. I ve been very excited to use the<br/> OpenAI API to communicate with ChatGPT and experience its natural language generation capabilities<br/> within the UI of my React project.</p>
+                <a href='https://github.com/ferlitomario/OpenAI-API'
+            target='_blank'
+            rel='noreferrer'>
                 <button className='px-8 py-2 mt-4'>Code</button>
+                </a>
             </div>
             <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4'>
                 <div className='p-2'>

@@ -21,8 +21,11 @@ const property = () => {
                 <p>Project</p>
                 <h2>Overview</h2>
                 <p>I developed this site to experiment and increase my knowledge of how a smart contract develops and how it interacts with the blockchain.I used solidity for the smart-contract and ganache to test it.</p>
-                <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
+                <a  href='https://github.com/ferlitomario/NFT-site'
+            target='_blank'
+            rel='noreferrer'>
                 <button className='px-8 py-2 mt-4'>Code</button>
+                </a>
             </div>
             <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4'>
                 <div className='p-2'>

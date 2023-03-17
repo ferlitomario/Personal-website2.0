@@ -1,54 +1,41 @@
 import React from 'react'
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
 import {AiOutlineTwitter} from 'react-icons/ai'
+import {Cursor, useTypewriter} from 'react-simple-typewriter';
+import BackgroundCircles from './BackgroundCircles';
 
 
 
-const Main = () => {
-  return (
-    <div id='home' className='w-full h-screen text-center'>
-        <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
-            <div >
-                <p className='uppercase text-sm tracking-widest text-gray-600'> It s me Mario </p>
-                <h1 className='py-4 text-gray-700'>
-                    Hi I m <span className='text-[#5651e5]'>Mario</span>
-                    </h1>
-                    <h1 className='py-2 text-gray-700'>
-                        A computer engineering student
-                    </h1>
-                    <p className='py-4 text-gary-600 max-w-[70%] m-auto'>
-                        Piccola descrizione di me stesso 
-                    </p>
-                    <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
-                        <a href='https://www.linkedin.com/in/mario-ferlito-06bba6174/'
-                        target='_blank'
-                        rel='noreferrer'
-                        >
-                        <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300'>
-                            <FaLinkedin />
-                        </div>
-                        </a>
+export default function Main ({}, props) {
+    const [text, count] = useTypewriter({
+        words: [
+            "Hi,I'm Mario",
+            "an engineering student.jsx",
+            "<and a junior front-end dev/>"
+        ],
+        loop:true,
+        delaySpeed: 2000,
+    });
 
-                        <a href='https://github.com/ferlitomario'
-                        target='_blank'
-                        rel='noreferrer'>
-                        <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300'>
-                            <FaGithub />
-                        </div>
-                        </a>
-
-                        <a href='https://twitter.com/ferlitomario99'
-                        target='_blank'
-                        rel='noreferrer'>
-                        <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300'>
-                            <AiOutlineTwitter />
-                        </div>
-                        </a>
-                    </div>
+    return (
+        <div id='home' className='h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden snap-center'>
+            <BackgroundCircles />
+            <div className='h-32 w-32 '>
+            <img classname='relative rounded-full  mx-auto' src='/assets/avatar.png' alt='/'></img>
+            
             </div>
+
+            <div className='z-20'>
+                <h2 className='text-sm uppercase text-red-700 pb-2 tracking-[15px]'>
+                    FrontEnd Dev
+                </h2>
+                <h1 className='text-5xl lg:text-6xl font-semibold px-10'> 
+            <span className='mr-3'>{text}</span>
+            <Cursor cursorColor="#F7AB0A"/>
+            </h1>
+            </div>
+
         </div>
-    </div>
-  )
+    )
 }
 
-export default Main
