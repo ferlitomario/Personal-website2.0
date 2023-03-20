@@ -1,8 +1,9 @@
 import React from 'react'
-import { FaGithub, FaLinkedin } from 'react-icons/fa'
+import { FaGithub, FaLinkedinIn  } from 'react-icons/fa'
 import {AiOutlineTwitter} from 'react-icons/ai'
-import {Cursor, useTypewriter} from 'react-simple-typewriter';
-import BackgroundCircles from './BackgroundCircles';
+import {Cursor, useTypewriter} from 'react-simple-typewriter'
+import BackgroundCircles from './BackgroundCircles'
+
 
 
 
@@ -21,7 +22,7 @@ export default function Main ({}, props) {
         <div id='home' className='h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden snap-center'>
             <BackgroundCircles />
             <div className='h-32 w-32 '>
-            <img classname='relative rounded-full  mx-auto' src='/assets/avatar.png' alt='/'></img>
+            <img className='relative rounded-full  mx-auto' src='/assets/avatar.png' alt='/'></img>
             
             </div>
 
@@ -34,8 +35,38 @@ export default function Main ({}, props) {
             <Cursor cursorColor="#F7AB0A"/>
             </h1>
             </div>
+                <div className='pt-40'>
+                        <div className='flex items-center justify-between my-2  w-full sm:w-[80%]'>
+                            <a href='https://www.linkedin.com/in/mario-ferlito-06bba6174/'
+                        target='_blank'
+                        rel='noopener noreferrer'>
+                            <div className='rounded-full shadow-lg shadow-gray-900 p-5 mx-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+                            <FaLinkedinIn />
+                            </div>
+                            </a>
+
+                            <a href='https://github.com/ferlitomario'
+                        target='_blank'
+                        rel='noopener noreferrer'>
+                            <div className='rounded-full shadow-lg shadow-gray-900 p-5 mx-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+                            <FaGithub />
+                            </div>
+                            </a>
+
+                            <a href='https://twitter.com/ferlitomario99'
+                        target='_blank'
+                        rel='noopener noreferrer'>
+                            <div className='rounded-full shadow-lg shadow-gray-900 p-5 mx-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+                            <AiOutlineTwitter/>
+                            </div>
+                            </a>
+                </div>
+           
+                </div>
+            
 
         </div>
+        
     )
 }
 

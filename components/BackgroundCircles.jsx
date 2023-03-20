@@ -22,7 +22,6 @@ function BackgroundCircles() {
     <div className='rounded-full border border-[#333333] h-[300px] w-[300px] absolute mt-52'/>
     <div className='rounded-full border border-[#333333] h-[500px] w-[500px] absolute mt-52' />
     <div className='rounded-full border border-[#d74b21] opacity-20 h-[650px] w-[650px] absolute mt-52 animate-pulse'/>
-   <div />
     </div>
     </motion.div>
   )
