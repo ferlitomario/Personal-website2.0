@@ -35,12 +35,12 @@ export default function Main ({}, props) {
             <Cursor cursorColor="#F7AB0A"/>
             </h1>
             </div>
-                <div className='pt-40'>
-                        <div className='flex items-center justify-between my-2  w-full sm:w-[80%]'>
+                <div className='pt-36 '>
+                        <div className='flex items-center justify-between my-2  w-full sm:w-[80%] '>
                             <a href='https://www.linkedin.com/in/mario-ferlito-06bba6174/'
                         target='_blank'
                         rel='noopener noreferrer'>
-                            <div className='rounded-full shadow-lg shadow-gray-900 p-5 mx-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+                            <div className=' rounded-full shadow-lg shadow-gray-900 p-5 mx-3 cursor-pointer hover:scale-105 ease-in duration-300'>
                             <FaLinkedinIn />
                             </div>
                             </a>
@@ -48,7 +48,7 @@ export default function Main ({}, props) {
                             <a href='https://github.com/ferlitomario'
                         target='_blank'
                         rel='noopener noreferrer'>
-                            <div className='rounded-full shadow-lg shadow-gray-900 p-5 mx-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+                            <div className=' rounded-full shadow-lg shadow-gray-900 p-5 mx-3 cursor-pointer hover:scale-105 ease-in duration-300'>
                             <FaGithub />
                             </div>
                             </a>
