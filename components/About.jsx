@@ -5,8 +5,8 @@ import Image from 'next/image';
 const About = () => {
     const downloadCV = () => {
         const link = document.createElement('a');
-        link.href = '/assets/CV-FerlitoMario2.pdf';
-        link.setAttribute('download', 'CV-FerlitoMario2.pdf');
+        link.href = '/assets/MarioFerlitoCV.pdf';
+        link.setAttribute('download', 'MarioFerlitoCV.pdf');
         link.setAttribute('type', 'application/pdf');
         document.body.appendChild(link);
         link.click();

@@ -45,7 +45,7 @@ const Skills = () => {
               imageSrc={skill.imageSrc}
             />
           ))}
-        </div>
+          </div>
       </div>
     </div>
   );
